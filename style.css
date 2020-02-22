@@ -1,43 +1,12 @@
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 10px;
-}
-
-body {
+.header {
   display: flex;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-
-  background-color: #2d2d2d;
-  height: 100vh;
+  padding: 8px;
 }
 
-h1 {
-  text-align: center;
+.header-title {
+  flex: 1;
 }
 
-body,
-html {
-  margin: 0;
-  padding: 0;
-
-  font-family: "Roboto";
-}
-
-.container {
-  width: 600px;
-  height: 600px;
-
-  background-color: #f2eecb;
-  border-radius: 4px;
-  padding: 6px;
-}
-
-.frame {
-  border: 1px solid #484848;
-  height: 100%;
+.mt-0 {
+  margin-top: 15px !important;
 }
